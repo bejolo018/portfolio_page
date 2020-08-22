@@ -1,2 +1,1 @@
-# boilerplate-reactapp
-Simple react boiler plate for quick app building. 
+My portfolio page for showing off my projects! Link can be found here:

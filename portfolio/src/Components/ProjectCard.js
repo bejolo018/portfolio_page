@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function ProductCard(props) {
     return (
         <div className="border mb-4 rounded overflow-hidden">
-            <Link to ={`/products/${props.product.id}`}>
+            {/* <Link to ={`/products/${props.product.id}`}>
             <div
                 style={{
                     'backgroundImage': `url('${props.product.images}')`                    
@@ -29,7 +29,7 @@ function ProductCard(props) {
                 View
             </Link>
             </div>
-            </div>
+            </div> */}
         </div>
     )
 }
