@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 function ProductCard(props) {
     return (
-        <div className="container xsm border mb-4 rounded overflow-hidden">
+        <div className="border mb-4 rounded overflow-hidden">
             
             <div
                 style={{
