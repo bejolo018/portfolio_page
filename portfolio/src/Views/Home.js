@@ -7,8 +7,10 @@ import ProjectCard from '../Components/ProjectCard'
 function Home() {
     return (
         <div>
-            <Name />
-            <AboutMe />
+            <div style={{textAlign: "center"}}>
+                <Name />
+                <AboutMe />
+            </div>
             <Technologies />
             <ProjectCard />
         </div>

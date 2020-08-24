@@ -5,9 +5,9 @@ import { DiPostgresql, DiMongodb } from 'react-icons/di';
 
 function Techonologies() {
     return (
-        <div className="mb-10">
+        <div className="mb-10 p-3 lg:ml-12">
             <div>Technologies:</div>
-            <div className="flex space-x-4 lg:space-x-25">
+            <div className="flex space-x-4 lg:space-x-24">
                 <IoLogoJavascript size={100}/>
                 <FaReact size={100}/>
                 <FaNodeJs size={100}/>
