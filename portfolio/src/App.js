@@ -39,11 +39,11 @@ render(){
   return (
     <div className="relative pb-10 min-h-screen">      
       <div>
-        <Home />
-        <Projects projects={this.state.projects}/>
+          <Home />
+          <Projects projects={this.state.projects}/>
       </div>
       <Footer />
-    </div>
+  </div>
   )
 }
 }

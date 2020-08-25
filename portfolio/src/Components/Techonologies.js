@@ -6,7 +6,7 @@ import { SiDjango } from 'react-icons/si';
 
 function Techonologies() {
     return (
-        <div className="mb-10 p-3 lg:ml-12">
+        <div className="mb-10 p-3">
             <div>Technologies:</div>
             <div className="flex space-x-4 lg:space-x-24">
                 <IoLogoJavascript size={100}/>
