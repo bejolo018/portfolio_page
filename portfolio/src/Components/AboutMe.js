@@ -4,7 +4,7 @@ import me from '../Assets/me.jpg'
 function AboutMe() {
     return (
         <div>
-            <img src={me} className="block m-auto sm:max-w-full sm:p-0" style={{maxWidth: "450px"}}/>
+            <img src={me} alt='me' className="block m-auto sm:max-w-full sm:p-0" style={{maxWidth: "450px"}}/>
 
             <div className="mb-10">
             Driven software engineer

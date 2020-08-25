@@ -7,7 +7,7 @@ class ProjectCard extends Component {
                 
                 <div
                     style={{
-                        'backgroundImage': `url('')`                    
+                        'backgroundImage': `url('${this.props.project.image}')`                    
                     }}
                     className="w-full h-64 bg-blue bg-cover"
                 >
@@ -17,8 +17,8 @@ class ProjectCard extends Component {
                     <h3 className="font-bold text-xl mb-3">
                         {this.props.project.title}
                     </h3>
-                <div className="font-bold mb-3">
-                    description
+                <div className="mb-3">
+                    {this.props.project.description}
                 </div>
                 <div>
                 <div /*to ={`/products/${props.product.id}`}*/
