@@ -4,6 +4,7 @@ import AboutMe from '../Components/AboutMe'
 import Technologies from '../Components/Techonologies'
 
 
+
 function Home() {
     return (
         <div>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Projects from './Components/Projects'
 import Footer from './Components/Footer'
 import Home from './Views/Home'
+import ContactMe from './Components/ContactMe'
 
 class App extends Component {
   state = {
@@ -41,6 +42,10 @@ render(){
       <div>
           <Home />
           <Projects projects={this.state.projects}/>
+          <div className='mt-10' style={{textAlign: "center"}} >
+            <ContactMe />
+          </div>
+        
       </div>
       <Footer />
   </div>
