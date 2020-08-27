@@ -2,7 +2,8 @@ module.exports = {
   purge: [],
   theme: {
     screens: {
-      'xsm': '420px'
+      'xsm': '420px',
+      'lg' : '1280px'
     },
     extend: {
       backgroundColor:{
