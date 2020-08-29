@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Projects from './Components/Projects'
-import Footer from './Components/Footer'
+// import Footer from './Components/Footer'
 import Home from './Views/Home'
 import ContactMe from './Components/ContactMe'
 
@@ -47,7 +47,7 @@ render(){
           </div>
         
       </div>
-      <Footer />
+      {/* <Footer /> */}
   </div>
   )
 }
