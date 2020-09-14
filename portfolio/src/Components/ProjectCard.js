@@ -21,6 +21,9 @@ class ProjectCard extends Component {
                 <div className="mb-3">
                     {this.props.project.description}
                 </div>
+                <div className="mb-3">
+                    Technologies used: {this.props.project.technologies}
+                </div>
                 <div>
                 <a href={this.props.project.link}
                       className="bg-green-500 text-white p-2 flex justify-center"
