@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class ProjectCard extends Component {
     render(){
         return (
-            <div className="border border-black mb-4 rounded overflow-hidden ">
+            <div className="border border-black mb-4 rounded overflow-hidden m-4">
                 {/* ADD IMAGE FUNCTIONALITY TO PROJECT CARDS HERE*/}
                 {/* <div
                     style={{
@@ -26,7 +26,7 @@ class ProjectCard extends Component {
                 </div>
                 <div>
                 <a href={this.props.project.link}
-                      className="bg-green-500 text-white p-2 flex justify-center"
+                      className="bg-pink-400 text-white p-2 flex justify-center"
                 >
                     View App
                 </a>
