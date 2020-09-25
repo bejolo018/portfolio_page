@@ -9,7 +9,7 @@ function Techonologies() {
         <div className="mb-10 p-3">
             <div className="font-bold p-3 mb-10" style={{textAlign: "center"}}>Technologies:</div>
             <div className="flex space-x-4 lg:space-x-20 lg:ml-20">
-                <IoLogoHtml5 size={100} />
+                <IoLogoHtml5 size={100}/> 
                 <IoLogoCss3 size={100}/>
                 <IoLogoJavascript size={100}/>
                 <FaReact size={100}/>
