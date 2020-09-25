@@ -8,11 +8,13 @@ import Technologies from '../Components/Techonologies'
 function Home() {
     return (
         <div>
-            <div style={{textAlign: "center"}}>
+            <div className="fadein" style={{textAlign: "center"}}>
                 <Name />
                 <AboutMe />
             </div>
-            <Technologies />
+            <div className="fadein2" >
+                <Technologies/>
+            </div>
         </div>
     )
 }

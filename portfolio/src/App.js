@@ -3,7 +3,7 @@ import Projects from './Components/Projects'
 // import Footer from './Components/Footer'
 import Home from './Views/Home'
 import ContactMe from './Components/ContactMe'
-
+import './index.css'
 class App extends Component {
   state = {
     projects:[
@@ -54,11 +54,12 @@ render(){
     <div className="relative pb-10 min-h-screen sm:max-w-xs">      
       <div>
           <Home />
+          <div className="fadein3">
           <Projects projects={this.state.projects}/>
           <div className='mt-10' style={{textAlign: "center"}} >
             <ContactMe />
           </div>
-        
+        </div>
       </div>
       {/* <Footer /> */}
   </div>
