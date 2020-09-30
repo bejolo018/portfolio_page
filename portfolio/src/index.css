@@ -54,3 +54,7 @@
 		opacity: 1;
 	}
 }
+
+.pointer:hover{
+	cursor: pointer;
+}
