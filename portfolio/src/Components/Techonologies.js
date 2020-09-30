@@ -54,25 +54,25 @@ if(open){
         </div>
         <div className="mt-10 pointer"style={{textAlign: "center"}} onClick={toggleMenu}>
             Full List of Technologies  ▲ 
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-            <li>NodeJS</li>
-            <li>ReactJS</li>
-            <li>Redux</li>
-            <li>ReactHooks</li>
-            <li>Python</li>
-            <li>Django</li>
-            <li>SASS</li>
-            <li>PostgreSQL</li>
-            <li>Express</li>
-            <li>MongoDB</li>
-            <li>Java</li>
-            <li>LESS</li>
-            <li>Tailwind</li>
-            <li>Bootstrap</li>
-            <li>ReactStrap</li>
-            <li>ContextAPI</li>
+            <li className="pointer">HTML5</li>
+            <li className="pointer">CSS3</li>
+            <li className="pointer">Javascript</li>
+            <li className="pointer">NodeJS</li>
+            <li className="pointer">ReactJS</li>
+            <li className="pointer">Redux</li>
+            <li className="pointer">ReactHooks</li>
+            <li className="pointer">Python</li>
+            <li className="pointer">Django</li>
+            <li className="pointer">SASS</li>
+            <li className="pointer">PostgreSQL</li>
+            <li className="pointer">Express</li>
+            <li className="pointer">MongoDB</li>
+            <li className="pointer">Java</li>
+            <li className="pointer">LESS</li>
+            <li className="pointer">Tailwind</li>
+            <li className="pointer">Bootstrap</li>
+            <li className="pointer">ReactStrap</li>
+            <li className="pointer">ContextAPI</li>
         </div>
             </div>
     )

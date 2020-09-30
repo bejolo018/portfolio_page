@@ -58,3 +58,13 @@
 .pointer:hover{
 	cursor: pointer;
 }
+
+.pointer::selection {
+    color: none;
+    background: none;
+}
+/* For Mozilla Firefox */
+.pointer::-moz-selection {
+    color: none;
+    background: none;
+}
