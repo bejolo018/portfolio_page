@@ -14488,6 +14488,22 @@ video {
   }
 }
 
+.pointer:hover{
+  cursor: pointer;
+}
+
+.pointer::selection {
+  color: none;
+  background: none;
+}
+
+/* For Mozilla Firefox */
+
+.pointer::-moz-selection {
+  color: none;
+  background: none;
+}
+
 @media (min-width: 420px) {
   .xsm\:container {
     width: 100%;
