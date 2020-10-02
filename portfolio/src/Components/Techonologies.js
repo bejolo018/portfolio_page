@@ -73,6 +73,8 @@ if(open){
             <li className="pointer">Bootstrap</li>
             <li className="pointer">ReactStrap</li>
             <li className="pointer">ContextAPI</li>
+            <li className="pointer">AJAX</li>
+            <li className="pointer">JEST</li>
         </div>
             </div>
     )
