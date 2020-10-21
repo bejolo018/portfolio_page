@@ -5,15 +5,6 @@ class ProjectCard extends Component {
     render(){
         return (
             <div className="border mb-4 rounded overflow-hidden m-4" style={{color: 'white'}}>
-                {/* ADD IMAGE FUNCTIONALITY TO PROJECT CARDS HERE*/}
-                {/* <div
-                    style={{
-                        'backgroundImage': `url('${this.props.project.image}')`                    
-                    }}
-                    className="w-full h-64 bg-blue bg-cover"
-                >
-                </div> */}
-                
                 <div className="p-3">
                     <h3 className="font-bold text-xl mb-3">
                         {this.props.project.title}
@@ -21,7 +12,10 @@ class ProjectCard extends Component {
                 <div className="mb-3">
                     {this.props.project.description}
                 </div>
-                <div className="mb-3">
+                <div>
+                    <img src={this.props.project.image} />
+                </div>
+                <div className="mb-3 mt-3">
                     Technologies used: {this.props.project.technologies}
                 </div>
                 <div>
