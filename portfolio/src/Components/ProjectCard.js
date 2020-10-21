@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class ProjectCard extends Component {
     render(){
         return (
-            <div className="border border-black mb-4 rounded overflow-hidden m-4">
+            <div className="border mb-4 rounded overflow-hidden m-4" style={{color: 'white'}}>
                 {/* ADD IMAGE FUNCTIONALITY TO PROJECT CARDS HERE*/}
                 {/* <div
                     style={{

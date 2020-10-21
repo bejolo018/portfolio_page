@@ -14,8 +14,8 @@ function Techonologies() {
     if (!open){
     return (
         <div className="mb-10 p-3">
-            <div className="font-bold p-3 mb-10" style={{textAlign: "center"}}>Technologies:</div>
-            <div className="flex space-x-4 lg:space-x-20 lg:ml-20">
+            <div className="font-bold p-3 mb-10" style={{textAlign: "center", color: 'white'}}>Technologies:</div>
+            <div className="flex space-x-4 lg:space-x-20 lg:ml-20" style={{color: 'white'}}>
                 <IoLogoHtml5 size={100}/> 
                 <IoLogoCss3 size={100}/>
                 <IoLogoJavascript size={100}/>
@@ -27,7 +27,7 @@ function Techonologies() {
                 <SiDjango size={100} />
                 <FaJava size={100} />
         </div>
-        <div className="mt-10 pointer"style={{textAlign: "center"}} onClick={toggleMenu}>
+        <div className="mt-10 pointer"style={{textAlign: "center", color: 'white'}} onClick={toggleMenu}>
             Full List of Technologies  ▼
 
         </div>
@@ -39,8 +39,8 @@ function Techonologies() {
 if(open){
     return (
         <div className="mb-10 p-3">
-            <div className="font-bold p-3 mb-10" style={{textAlign: "center"}}>Technologies:</div>
-            <div className="flex space-x-4 lg:space-x-20 lg:ml-20">
+            <div className="font-bold p-3 mb-10" style={{textAlign: "center", color: 'white'}}>Technologies:</div>
+            <div className="flex space-x-4 lg:space-x-20 lg:ml-20" style={{color: 'white'}}>
                 <IoLogoHtml5 size={100}/> 
                 <IoLogoCss3 size={100}/>
                 <IoLogoJavascript size={100}/>
@@ -52,7 +52,7 @@ if(open){
                 <SiDjango size={100} />
                 <FaJava size={100} />
         </div>
-        <div className="mt-10 pointer"style={{textAlign: "center"}} onClick={toggleMenu}>
+        <div className="mt-10 pointer"style={{textAlign: "center", color: 'white'}} onClick={toggleMenu}>
             Full List of Technologies  ▲ 
             <li className="pointer">HTML5</li>
             <li className="pointer">CSS3</li>
