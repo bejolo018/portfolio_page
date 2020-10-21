@@ -10,7 +10,7 @@ function AboutMe() {
             <div style={{color: 'white'}}>
                 <a className='inline-block mb-5' href="https://www.linkedin.com/in/benjaminjohnlopez/"><AiOutlineLinkedin size={50}/></a>     
                 <a className='inline-block mb-5' href="https://github.com/bejolo018"><RiGithubLine size={50}/></a> 
-                <a className='inline-block mb-5' href={Pdf} target="_blank"><RiPagesLine size={50}/></a> 
+                <a className='inline-block mb-5' href={Pdf} target="_blank" rel="noopener noreferrer"><RiPagesLine size={50}/></a> 
             </div>
 
             <div className="mb-10 text-xl" style={{color: 'white'}}>

@@ -13,7 +13,7 @@ class ProjectCard extends Component {
                     {this.props.project.description}
                 </div>
                 <div>
-                    <img src={this.props.project.image} />
+                    <img src={this.props.project.image} alt=''/>
                 </div>
                 <div className="mb-3 mt-3">
                     Technologies used: {this.props.project.technologies}
