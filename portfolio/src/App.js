@@ -59,8 +59,7 @@ render(){
     <div className="relative pb-10 min-h-screen sm:max-w-xs">      
       <div>
           <Home />
-          {/* <div className="fadein3"> */}
-          <div>
+          <div className="fadein3">
           <Projects projects={this.state.projects}/>
           <div className='mt-10' style={{textAlign: "center"}} >
             <ContactMe />
