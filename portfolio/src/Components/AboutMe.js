@@ -3,6 +3,7 @@ import me from '../Assets/me.jpg'
 import { AiOutlineLinkedin } from 'react-icons/ai'
 import { RiGithubLine, RiPagesLine } from 'react-icons/ri'
 import Pdf from '../Assets/Resume3.pdf'
+
 function AboutMe() {
     return (
         <div>
