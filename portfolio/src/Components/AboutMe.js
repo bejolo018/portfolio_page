@@ -16,7 +16,7 @@ function AboutMe() {
             </div>
             
             <a href="https://www.figma.com/files/project/11402597/Benjamin's-Design-Portfolio"
-               className='block mb-4 text-l hover:underline'
+               className='block mb-4 text-l hover:underline font-bold'
                style={{color: 'white'}}
             > Design Portfolio</a>
 
