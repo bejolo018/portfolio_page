@@ -8,22 +8,20 @@ function AboutMe() {
     return (
         <div>
             <img src={me} alt='me' className="block m-auto sm:max-w-full sm:p-0 mb-4 mt-12" style={{maxWidth: "400px", borderRadius: '20px'}}/>
+
             <div style={{color: 'white'}}>
                 <a className='inline-block mb-5' href="https://www.linkedin.com/in/benjaminjohnlopez/"><AiOutlineLinkedin size={50}/></a>     
                 <a className='inline-block mb-5' href="https://github.com/bejolo018"><RiGithubLine size={50}/></a> 
                 <a className='inline-block mb-5' href={Pdf} target="_blank" rel="noopener noreferrer"><RiPagesLine size={50}/></a> 
             </div>
+            
+            <a href="https://www.figma.com/files/project/11402597/Benjamin's-Design-Portfolio"
+               className='block mb-4 text-l hover:underline'
+               style={{color: 'white'}}
+            > Design Portfolio</a>
 
             <div className="mb-10 text-xl" style={{color: 'white'}}>
-            Driven software engineer
-            who loves working on
-            and managing awesome
-            projects. Self-directed
-            and motivated to
-            providing the best
-            experience possible and
-            working at peak
-            efficiency.    
+            Full Stack Web Developer with a passion for design, and focus on attention to detail.   
             </div> 
 
         </div>

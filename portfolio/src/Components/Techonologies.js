@@ -27,7 +27,7 @@ function Techonologies() {
                 <SiDjango size={100} />
                 <FaJava size={100} />
         </div>
-        <div className="mt-10 pointer"style={{textAlign: "center", color: 'white'}} onClick={toggleMenu}>
+        <div className="mt-10 pointer hover:underline"style={{textAlign: "center", color: 'white'}} onClick={toggleMenu}>
             Full List of Technologies  ▼
 
         </div>

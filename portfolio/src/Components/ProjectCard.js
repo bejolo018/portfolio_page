@@ -20,14 +20,14 @@ class ProjectCard extends Component {
                 </div>
                 <div>
                 <a    href={this.props.project.link}
-                      className="bg-pink-400 text-white p-2 flex justify-center"
+                      className="bg-pink-400 hover:bg-pink-500 text-white p-2 flex justify-center"
                       style={{borderRadius: '20px'}}
                 >
                     View App
                 </a>
                 <a 
                       href={this.props.project.github}
-                      className="bg-blue-500 text-white p-2 flex justify-center mt-3"
+                      className="bg-blue-500 hover:bg-blue-600 text-white p-2 flex justify-center mt-3"
                       style={{borderRadius: '20px'}}
                 >
                     View Code
