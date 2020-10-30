@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class ProjectCard extends Component {
     render(){
         return (
-            <div className="border mb-4 rounded overflow-hidden m-4 " style={{color: 'white'}}>
+            <div className="border mb-4 rounded m-4" style={{color: 'white'}}>
                 <div className="p-3">
                     <h3 className="font-bold text-xl mb-3 flex justify-center">
                         {this.props.project.title}
