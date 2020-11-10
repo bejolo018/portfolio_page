@@ -12,7 +12,7 @@ class App extends Component {
 
 render(){
   return (
-    <div className="relative pb-10 min-h-screen sm:max-w-xs">      
+    <div className="pb-10 min-h-screen">      
       <div>
           <Home />
           <div className="fadein3">

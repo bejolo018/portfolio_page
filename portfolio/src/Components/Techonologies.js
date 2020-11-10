@@ -17,18 +17,18 @@ function Techonologies() {
             <div className="font-bold p-3 mb-10" style={{textAlign: "center", color: 'white'}}>Technologies:</div>
             <div>
                 <div className="flex justify-center space-x-8" style={{color: 'white'}}>
-                    <IoLogoHtml5 size={100}/> 
-                    <IoLogoCss3 size={100}/>
-                    <IoLogoJavascript size={100}/>
-                    <FaReact size={100}/>
-                    <FaNodeJs size={100}/>
+                    <IoLogoHtml5 size={75}/> 
+                    <IoLogoCss3 size={75}/>
+                    <IoLogoJavascript size={75}/>
+                    <FaReact size={75}/>
+                    <FaNodeJs size={75}/>
                 </div>
                 <div className="flex justify-center space-x-8 mt-8" style={{color: 'white'}}>
-                    <DiPostgresql size={100}/>
-                    <DiMongodb size={100} />
-                    <IoLogoPython size={100}/>
-                    <SiDjango size={100} />
-                    <FaJava size={100} />
+                    <DiPostgresql size={75}/>
+                    <DiMongodb size={75} />
+                    <IoLogoPython size={75}/>
+                    <SiDjango size={75} />
+                    <FaJava size={75} />
                 </div>
             </div>
 
@@ -47,18 +47,18 @@ if(open){
             <div className="font-bold p-3 mb-10" style={{textAlign: "center", color: 'white'}}>Technologies:</div>
             <div>
                 <div className="flex justify-center space-x-8" style={{color: 'white'}}>
-                    <IoLogoHtml5 size={100}/> 
-                    <IoLogoCss3 size={100}/>
-                    <IoLogoJavascript size={100}/>
-                    <FaReact size={100}/>
-                    <FaNodeJs size={100}/>
+                    <IoLogoHtml5 size={75}/> 
+                    <IoLogoCss3 size={75}/>
+                    <IoLogoJavascript size={75}/>
+                    <FaReact size={75}/>
+                    <FaNodeJs size={75}/>
                 </div>
                 <div className="flex justify-center space-x-8 mt-8" style={{color: 'white'}}>
-                    <DiPostgresql size={100}/>
-                    <DiMongodb size={100} />
-                    <IoLogoPython size={100}/>
-                    <SiDjango size={100} />
-                    <FaJava size={100} />
+                    <DiPostgresql size={75}/>
+                    <DiMongodb size={75} />
+                    <IoLogoPython size={75}/>
+                    <SiDjango size={75} />
+                    <FaJava size={75} />
                 </div>
             </div>
         <div className="mt-10 pointer"style={{textAlign: "center", color: 'white'}} onClick={toggleMenu}>

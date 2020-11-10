@@ -7,7 +7,7 @@ import Pdf from '../Assets/Resume3.pdf'
 function AboutMe() {
     return (
         <div>
-            <img src={me} alt='me' className="block m-auto sm:max-w-full sm:p-0 mb-4 mt-12" style={{maxWidth: "400px", borderRadius: '20px'}}/>
+            <img src={me} alt='me' className="block m-auto sm:max-w-full sm:p-0 mb-4 mt-12" style={{maxWidth: "300px", borderRadius: '20px'}}/>
 
             <div style={{color: 'white'}}>
                 <a className='inline-block mb-5' href="https://www.linkedin.com/in/benjaminjohnlopez/"><AiOutlineLinkedin size={50}/></a>     
