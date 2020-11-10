@@ -6,22 +6,21 @@ import mernmovie from './Assets/mernmovie.png'
 const projectData =[
     {
       id: 1,
-      title: 'The Underground',
-      description:'Private room chat application that has messages that can only be read by users in the room when the message is sent, for discreet chatting and privacy.',
-      link:'https://optimistic-blackwell-7456bd.netlify.app/',
-      github: 'https://github.com/bejolo018/React_ChatApp',
-      image: underground,
-      technologies: 'React, Node, CSS3, SocketIO, ReactHooks'
-    },
-
-    {
-      id: 2,
       title: 'DevFindr',
       description: 'This App Allows you to connect entrepreneurs ideas with capable developers to craft their ideas into professional applications.',
       link: 'https://brave-ardinghelli-f8e8c7.netlify.app/',
       github: 'https://github.com/labs14-build-my-app',
       image: devfindr,
       technologies: 'React, Redux, Node, MongoDB, HTML5, CSS3'
+    },
+    {
+      id: 2,
+      title: 'The Underground',
+      description:'Private room chat application that has messages that can only be read by users in the room when the message is sent, for discreet chatting and privacy.',
+      link:'https://optimistic-blackwell-7456bd.netlify.app/',
+      github: 'https://github.com/bejolo018/React_ChatApp',
+      image: underground,
+      technologies: 'React, Node, CSS3, SocketIO, ReactHooks'
     },
 
     {

@@ -16,10 +16,15 @@ render(){
       <div>
           <Home />
           <div className="fadein3">
-          <Projects projects={this.state.projects}/>
-          <div className='mt-10' style={{textAlign: "center"}} >
-            <ContactMe />
-          </div>
+
+            <div className='lg:px-32'>
+              <Projects projects={this.state.projects}/>
+            </div>
+
+            <div className='mt-10' style={{textAlign: "center"}} >
+              <ContactMe />
+            </div>
+          
         </div>
       </div>
   </div>
