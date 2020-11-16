@@ -15,10 +15,10 @@ function AboutMe() {
                 <a className='inline-block mb-5' href={Pdf} target="_blank" rel="noopener noreferrer"><RiPagesLine size={50}/></a> 
             </div>
             
-            <a href="https://www.figma.com/files/project/11402597/Benjamin's-Design-Portfolio"
+            {/* <a href="https://www.figma.com/files/project/11402597/Benjamin's-Design-Portfolio"
                className='block mb-4 text-l hover:underline font-bold'
                style={{color: 'white'}}
-            > Design Portfolio</a>
+            > Design Portfolio</a> */}
 
             <div className="mb-10 text-xl" style={{color: 'white'}}>
             Full Stack Web Developer with a passion for design, and focus on attention to detail.   

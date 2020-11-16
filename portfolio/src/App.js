@@ -17,7 +17,7 @@ render(){
           <Home />
           <div className="fadein3">
 
-            <div className='lg:px-32'>
+            <div className='lg:px-56'>
               <Projects projects={this.state.projects}/>
             </div>
 

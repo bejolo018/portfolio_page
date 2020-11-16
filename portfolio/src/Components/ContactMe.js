@@ -5,9 +5,10 @@ export default function ContactMe() {
         <div style={{color: 'white'}}>
             <p className="font-bold text-xl mb-6"> Contact me!</p>
             
-            <div className="font-bold text-xl mb-6">
+            <a className="font-bold text-xl mb-6 hover:underline"
+                href='mailto: benjaminjohnlopez@gmail.com'>
                 benjaminjohnlopez@gmail.com
-            </div>
+            </a>
 
         </div>
     )
