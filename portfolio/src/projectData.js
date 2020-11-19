@@ -4,6 +4,7 @@ import hhmud from './Assets/hhmud.png'
 import mernmovie from './Assets/mernmovie.png'
 import recipe from './Assets/recipe book.png'
 import mapclone from './Assets/Google Maps Clone.png'
+import quizapp from './Assets/quiz-app.png'
 
 
 
@@ -73,7 +74,7 @@ const projectData =[
       description: 'Flashcard quiz app on trivia and general knowledge questions that utilize the OpenTDB API.',
       link: 'https://naughty-torvalds-dd74dd.netlify.app/',
       github: 'https://github.com/bejolo018/react-quiz-app',
-      image: mernmovie,
+      image: quizapp,
       technologies: 'React, Axios, React Hooks, CSS3'
     },
   ]
