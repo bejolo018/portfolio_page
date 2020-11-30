@@ -21,7 +21,7 @@ function AboutMe() {
             > Design Portfolio</a> */}
 
             <div className="mb-10 text-xl" style={{color: 'white'}}>
-            Full Stack Web Developer with a passion for design, and focus on attention to detail.   
+            Full Stack Web Developer with a passion for design.   
             </div> 
 
         </div>
