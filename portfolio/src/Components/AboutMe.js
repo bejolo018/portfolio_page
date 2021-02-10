@@ -14,11 +14,6 @@ function AboutMe() {
                 <a className='inline-block m-5' href="https://github.com/bejolo018"><RiGithubLine size={50}/>Github</a> 
                 <a className='inline-block m-5' href={Pdf} target="_blank" rel="noopener noreferrer"><RiPagesLine size={50}/>Resume</a> 
             </div>
-            
-            {/* <a href="https://www.figma.com/files/project/11402597/Benjamin's-Design-Portfolio"
-               className='block mb-4 text-l hover:underline font-bold'
-               style={{color: 'white'}}
-            > Design Portfolio</a> */}
 
             <div className="mb-10 text-xl" style={{color: 'white'}}>
             Driven software engineer
