@@ -7,7 +7,7 @@ import Pdf from '../Assets/Resume3.pdf'
 function AboutMe() {
     return (
         <div>
-            <img src={me} alt='me' className="block m-auto sm:max-w-xsm sm:p-0 mb-4 mt-12" style={{borderRadius: '20px'}}/>
+            <img src={me} alt='me' className="m-auto sm:max-w-xsm mb-4 mt-12" style={{borderRadius: '20px'}}/>
 
             <div style={{color: 'white'}}>
                 <a className='inline-block m-5' href="https://www.linkedin.com/in/benjaminjohnlopez/"><AiOutlineLinkedin size={50}/> LinkedIn</a>     
@@ -15,7 +15,7 @@ function AboutMe() {
                 <a className='inline-block m-5' href={Pdf} target="_blank" rel="noopener noreferrer"><RiPagesLine size={50}/>Resume</a> 
             </div>
 
-            <div className="mb-10 text-xl" style={{color: 'white'}}>
+            <div className="mt-12 mb-10 text-xl" style={{color: 'white'}}>
             Driven software engineer
             who loves working on
             and managing awesome
