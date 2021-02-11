@@ -6,7 +6,7 @@ import Pdf from '../Assets/Resume3.pdf'
 
 function AboutMe() {
     return (
-        <div>
+        <div className="fadein" style={{textAlign: "center"}}>
             <div className="font-bold mb-3" style={{fontSize: "70px", color: 'white'}}>Benjamin Lopez</div>
             <img src={me} alt='me' className="m-auto sm:max-w-xsm mb-4 mt-12" style={{borderRadius: '20px'}}/>
             <div className="mt-12 mb-10 text-xl" style={{color: 'white'}}>

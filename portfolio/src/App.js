@@ -13,18 +13,18 @@ class App extends Component {
 
 render(){
   return (
-    <div className="pb-10 min-h-screen">      
-        <div className="fadein" style={{textAlign: "center"}}>
-              <AboutMe />
-          </div>
-        <div className="fadein2" >
-              <Technologies />
+    <div>      
+        <div>
+          <AboutMe />
         </div>
-        <div className="fadein3">
-          <div className='lg:px-56'>
+        <div >
+          <Technologies />
+        </div>
+        <div>
+          <div className='lg:px-56 fadein3'>
             <Projects projects={this.state.projects}/>
           </div>
-          <div className='mt-10' style={{textAlign: "center"}} >
+          <div>
             <ContactMe />
           </div>
       </div>
