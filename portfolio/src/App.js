@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+
+
 import Projects from './Components/Projects'
 import ContactMe from './Components/ContactMe'
 import projectData from './projectData'
@@ -14,21 +16,13 @@ class App extends Component {
 render(){
   return (
     <div>      
-        <div>
           <AboutMe />
-        </div>
-        <div >
           <Technologies />
-        </div>
-        <div>
           <div className='lg:px-56 fadein3'>
             <Projects projects={this.state.projects}/>
           </div>
-          <div>
             <ContactMe />
-          </div>
-      </div>
-  </div>
+    </div>
   )
 }
 }
