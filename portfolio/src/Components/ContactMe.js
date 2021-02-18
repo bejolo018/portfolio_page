@@ -1,15 +1,32 @@
-import React from 'react'
+import React from 'react';
+import emailjs from 'emailjs-com';
 
 export default function ContactMe() {
-    return (
-        <div style={{color: 'white', textAlign: "center"}} className='mt-10 fadein3 pb-10'>
-            <p className="font-bold text-xl mb-6"> Contact me!</p>
-            
-            <a className="font-bold text-xl mb-6 hover:underline"
-                href='mailto: benjaminjohnlopez@gmail.com'>
-                benjaminjohnlopez@gmail.com
-            </a>
 
-        </div>
-    )
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_tj2w3cg', 'template_zutdfvt', e.target, 'user_69fv3Uo24AIuDvBPFY6d1')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  }
+
+  return (
+    <div>
+        <h3>Contact me!</h3>
+        <form className="contact-form" onSubmit={sendEmail}>
+        <input type="hidden" name="contact_number" />
+        <label>Name</label>
+        <input type="text" name="user_name" />
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        <label>Message</label>
+        <textarea name="message" />
+        <input type="submit" value="Send" />
+        </form>
+    </div>
+    );
 }

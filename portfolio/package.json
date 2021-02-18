@@ -11,6 +11,7 @@
     "@testing-library/user-event": "^7.1.2",
     "autoprefixer": "^9.8.6",
     "axios": "^0.19.2",
+    "emailjs-com": "^2.6.4",
     "postcss": "^7.0.32",
     "postcss-cli": "^7.1.1",
     "react": "^16.13.1",

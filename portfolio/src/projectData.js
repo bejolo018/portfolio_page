@@ -2,9 +2,9 @@ import underground from './Assets/underground.png'
 import devfindr from './Assets/devfindr.png'
 import hhmud from './Assets/hhmud.png'
 import mernmovie from './Assets/mernmovie.png'
-import recipe from './Assets/recipe book.png'
-import mapclone from './Assets/Google Maps Clone.png'
-import quizapp from './Assets/quiz-app.png'
+// import recipe from './Assets/recipe book.png'
+// import mapclone from './Assets/Google Maps Clone.png'
+// import quizapp from './Assets/quiz-app.png'
 
 
 
@@ -48,35 +48,35 @@ const projectData =[
       technologies: 'React, Redux, Node, ReactStrap'
     },
 
-    {
-      id: 5,
-      title: 'Recipe Book',
-      description: 'React application connected to the Edamam Recipe API to search and find recipes!',
-      link: 'https://elated-bell-eaf1e6.netlify.app/',
-      github: 'https://github.com/bejolo018/react-recipe-app',
-      image: recipe,
-      technologies: 'React, CSS3, React Hooks'
-    },
+    // {
+    //   id: 5,
+    //   title: 'Recipe Book',
+    //   description: 'React application connected to the Edamam Recipe API to search and find recipes!',
+    //   link: 'https://elated-bell-eaf1e6.netlify.app/',
+    //   github: 'https://github.com/bejolo018/react-recipe-app',
+    //   image: recipe,
+    //   technologies: 'React, CSS3, React Hooks'
+    // },
 
-    {
-      id: 6,
-      title: 'Google Maps Clone',
-      description: 'Clone of Google Maps using the Mapbox API with direction functionality.',
-      link: 'https://sleepy-ritchie-2f0cc0.netlify.app/',
-      github: 'https://github.com/bejolo018/google_maps_clone',
-      image: mapclone,
-      technologies: 'HTML, Javascript, Mapbox'
-    },
+    // {
+    //   id: 6,
+    //   title: 'Google Maps Clone',
+    //   description: 'Clone of Google Maps using the Mapbox API with direction functionality.',
+    //   link: 'https://sleepy-ritchie-2f0cc0.netlify.app/',
+    //   github: 'https://github.com/bejolo018/google_maps_clone',
+    //   image: mapclone,
+    //   technologies: 'HTML, Javascript, Mapbox'
+    // },
 
-    {
-      id: 7,
-      title: 'Flashcards Quiz App',
-      description: 'Flashcard quiz app on trivia and general knowledge questions that utilize the OpenTDB API.',
-      link: 'https://naughty-torvalds-dd74dd.netlify.app/',
-      github: 'https://github.com/bejolo018/react-quiz-app',
-      image: quizapp,
-      technologies: 'React, Axios, React Hooks, CSS3'
-    },
+    // {
+    //   id: 7,
+    //   title: 'Flashcards Quiz App',
+    //   description: 'Flashcard quiz app on trivia and general knowledge questions that utilize the OpenTDB API.',
+    //   link: 'https://naughty-torvalds-dd74dd.netlify.app/',
+    //   github: 'https://github.com/bejolo018/react-quiz-app',
+    //   image: quizapp,
+    //   technologies: 'React, Axios, React Hooks, CSS3'
+    // },
   ]
 
 export default projectData
