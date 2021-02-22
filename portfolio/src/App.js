@@ -17,7 +17,9 @@ render(){
   return (
     <div>      
           <AboutMe />
-          <Technologies />
+          <div className="fadein2">
+            <Technologies/>
+          </div>
           <div className='lg:px-56 fadein3'>
             <Projects projects={this.state.projects}/>
           </div>

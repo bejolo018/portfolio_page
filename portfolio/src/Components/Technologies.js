@@ -13,7 +13,7 @@ function Techonologies() {
 
     if (!open){
     return (
-        <div className="fadein2 mb-10 p-3">
+        <div className="mb-10 p-3">
             <div className="font-bold p-3 mb-10" style={{textAlign: "center", color: 'white'}}>Technologies:</div>
             <div>
                 <div className="flex justify-center space-x-8" style={{color: 'white'}}>
