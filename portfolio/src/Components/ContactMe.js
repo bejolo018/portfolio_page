@@ -15,17 +15,17 @@ export default function ContactMe() {
   }
 
   return (
-    <div>
-        <h3>Contact me!</h3>
-        <form className="contact-form" onSubmit={sendEmail}>
+    <div className="lg:mx-20">
+        <h3 className="text-white" style={{textAlign: "center"}}>Contact me!</h3>
+        <form className="m-5 lg:mx-20" onSubmit={sendEmail}>
         <input type="hidden" name="contact_number" />
-        <label>Name</label>
-        <input type="text" name="user_name" />
-        <label>Email</label>
-        <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <input type="submit" value="Send" />
+        <label className="text-white">Name:</label>
+        <input className="m-5 input-form" type="text" name="user_name" />
+        <label className="text-white">Email</label>
+        <input className="m-5 input-form" type="email" name="user_email" />
+        <label className=" text-white mr-5" >Message</label>
+        <textarea className="input-form" name="message"/>
+        <input className="p-2 bg-pink-400 w-full hover:bg-pink-500" type="submit" value="Send" style={{borderRadius: '20px', color: 'white'}} />
         </form>
     </div>
     );

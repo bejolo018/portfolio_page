@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 
-
 import Projects from './Components/Projects'
 import ContactMe from './Components/ContactMe'
 import projectData from './projectData'

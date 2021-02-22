@@ -18705,6 +18705,17 @@ video {
   background: none;
 }
 
+/* Style inputs */
+
+.input-form, select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 @media (min-width: 1280px) {
   .lg\:container {
     width: 100%;
