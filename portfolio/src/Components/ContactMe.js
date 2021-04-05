@@ -15,7 +15,7 @@ export default function ContactMe() {
   }
 
   return (
-    <div className="lg:mx-20 mb-20">
+    <div className="lg:mx-20 mb-20 border rounded p-5">
         <h3 className="text-white font-bold text-lg" style={{textAlign: "center"}}>Contact me!</h3>
         <form className="m-5" onSubmit={sendEmail}>
         <input type="hidden" name="contact_number" />
